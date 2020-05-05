@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: lightcoral;
+}
+.video .video-tvc{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+.page-header{
+    width: 100%;
+    height: 75px;
+    font-size: 0px;
+    /* border: 1px solid black; */
+}
+.left-container{
+    vertical-align: top;
+    width: 40%;
+    height: 75px;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+.left{
+    display: inline-block;
+    width: 108.141px;
+    height: 45px;
+    margin: 15px 0px 15px 70px;
+    vertical-align: top;
+}
+@media screen and (max-width:1700px){
+    .left-container{
+        display: none;
+    }
+}
+.right{
+    display: inline-block;
+    width: 1005px;
+    height: 75px;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+.link-1{
+    vertical-align: top;
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 29.5px 0px 0px 25px;
+    color: #ffffff;
+}
+.right>img{
+    width: 22px;
+    height: 22px;
+    margin: 26.5px 0px 0px 25px;
+}
+.triangle{
+    display: inline-block;
+    border-top: 5px solid #ffffff;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    font-size: 0px;
+    margin-bottom: 3px;
+}
+.page-info>img{
+    height: 80px;
+    width: 450px;
+}
+.logo-a{
+    display: inline-block;
+    width: 142px;
+    height: 51px;
+    border-radius: 8px;
+    background-image: url(./image/slogan2.png);
+    background-size: 142px 51px;
+}
+.logo-b{
+    display: inline-block;
+    width: 142px;
+    height: 51px;
+    border-radius: 8px;
+    background-image: url(./image/android.png);
+    background-size: 142px 51px;
+}
+.image{
+    display: inline-block;
+    height: 51px;
+    width: 51px;
+    border-radius: 8px;
+}
+.page-footer{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.logo-a .logo-b .image{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+.page-mainer{
+    height: 185px;
+    width: 500px;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    position: absolute;
+    right: 7.5%;
+    top: 50%;;
+}
+
+/* .container{
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    height: 100%;
+    min-height: 100%;
+} */
+.page-info-a{
+    margin-bottom: 16px;
+}
+.link-a{
+    padding: 0px 5px;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.page-info-d>img{
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+}
+.footer a, .footer span{
+    color: #ffffff;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+}
+.info-b, .link-c, .info.c, .page-info-db, .info.d, .page-info-da{
+    line-height: 25px;
+}
